@@ -1,0 +1,347 @@
+
+body {
+  margin: 0px;
+}
+
+header {
+  max-width: 100%;
+  margin: 0px auto;
+  background-color: #fcedab;
+}
+
+.logo {
+ display: inline-block;
+ vertical-align: middle;
+ width: 20%;
+ padding-left: 15%;
+
+}
+.menu {
+ display: inline-block;
+ vertical-align: middle;
+ width: 64%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+ }
+
+.menu ul li {
+    display:inline-block;
+    padding: 10px;
+    color:;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.menu ul li a:hover {
+  color: orange;
+}
+
+/* Hero section */
+
+.page-content {
+  text-align: center;
+  position: relative;
+}
+
+.page-content img {
+width: 100%;
+height:auto;
+text-align: center;
+position: relative;
+}
+
+.page-content p {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 150px;
+  position: absolute;
+  color: #fcedab;
+  text-align: justify;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: 400;
+ }
+
+.page-content p span {
+ font-size: 48px;
+ display: block;
+ text-align: center;
+ padding: 30px;
+ font-family:'Ubuntu', sans-serif;
+ font-weight: 700;
+}
+
+p {
+  line-height: 45px;
+  font-size: 24px;
+}
+
+/* Container first */
+
+.container1 {
+  background-color: #f4d690;
+  height: 500px;
+  margin-top: -10px;
+  padding: 50px;
+  }
+
+.container1 img {
+  width: 330px;
+  height: 240px;
+}
+
+.container1 h2 {
+  margin-left: 40px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.container1 p {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.container1 .col1 {
+  display: inline-block;
+  width: 33%;
+  float: left;
+}
+
+.container1 .col2 {
+  display: inline-block;
+  width: 33%;
+  float: inherit;
+}
+
+.container1 .col3 {
+  display: inline-block;
+  width: 33%;
+  float: right;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: #d38a0c;
+}
+/* Container 2*/
+
+.container2 {
+  width: 100%;
+  height: 430px;
+  background-color: #ede2b1;
+}
+
+.container2 .col1 {
+ display: inline-block;
+ width: 38.5%;
+ float: left;
+ padding:0px;
+ margin-left: 7%;
+ margin-right: 3.5%;
+ text-align: justify;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.container2 p {
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+.container2 ul li {
+  list-style-type: none;
+}
+
+.container2 .col2 {
+ display: inline-block;
+ width: 38.5%;
+ float: right;
+ padding:0px;
+ margin-left: 3,5;
+ margin-right: 7%;
+ text-align: justify;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+/* Container 3 */
+
+.container3 {
+  width: 100%;
+  height: 300px;
+  background-color: #750c0c;
+  float: none;
+  clear: both;
+}
+
+
+.adress1 {
+  display: inline-block;
+  color: white;
+  width: 30%;
+  padding: 3%;
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.adress2 { 
+  display: inline-block;
+  color: white;
+  width: 30%;
+  padding: 3%;
+  float: inherit;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+.adress3{
+  display: inline-block;
+  width: 22%;
+  padding: 3%;
+  color: white;
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+/* Footer */
+
+footer p {
+ display: inline;
+ float: left;
+ padding-left: 600px;
+ padding-top: 10px;
+ font-size: 14px;
+ font-family: 'Ubuntu', sans-serif;
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+  float: right;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;а
+}
+
+/*page 1 */
+
+
+.main-page .main-hero {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+}
+
+.main-hero img {
+   width: 100%;
+}
+
+.main-page .title {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700px;
+  font-size: 48px;
+  padding-top: 150px;
+}
+
+.about {
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  max-width: 70%;
+  text-align: justify;
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px; 
+}
+
+.about p {
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+.search {
+  float: right;
+  padding-top: 70px;
+  padding-right: 120px;
+}
+
+/* Page 2*/
+
+
+
+#prices {
+  text-align: center;
+  font-size: 48px;
+  font-family:'Ubuntu', sans-serif; 
+  color: #750c0c;
+}
+
+.prod {
+  width: 100%;
+  height: 400px;
+  background-color: #f4d690;
+  color: #750c0c;
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: 'Ubuntu', sans-serif; 
+}
+
+.prod .table1 {
+  display: inline-block;
+  width: 29%;
+  float: left;
+  padding-left: 3%;
+  padding-right: 1%
+}
+
+.prod .table2 {
+  display:inline-block;
+  width: 29%;
+  float: inherit;
+  padding-left: 3%;
+  padding-right: 1%
+}
+
+.prod .table3 {
+  display: inline-block;
+  width: 29%;
+  float: right;
+  padding-left: 3%;
+  padding-right: 1%
+}
+
+#pricesdate {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif; 
+  font-size: 24px;
+}
+
+.prod a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
